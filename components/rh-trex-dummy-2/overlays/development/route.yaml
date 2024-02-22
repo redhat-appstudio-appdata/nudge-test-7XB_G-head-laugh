@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: rh-trex-dummy-2
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: rh-trex-dummy-2
+    app.kubernetes.io/part-of: nudge-test
+  name: rh-trex-dummy-2ffbb
+spec:
+  port:
+    targetPort: 8000
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: rh-trex-dummy-2
+    weight: 100
+status: {}
