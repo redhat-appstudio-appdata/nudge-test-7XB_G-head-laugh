@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rh-trex-dummy-2
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-trex-tenant/nudge-test/rh-trex-dummy-2@sha256:f0b30a0c47ced2fcb98767a957115d9caada2d8e95a4ee4748cd2bf9663a589d
+      - image: quay.io/redhat-user-workloads/rh-trex-tenant/nudge-test/rh-trex-dummy-2@sha256:e71ed010abc194fca9a634054343d393297bdbb48b93f7c744fa5c3a157d8126
         imagePullPolicy: Always
         name: container-image
         ports:
