@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-trex-tenant/nudge-test/rh-trex-dummy-1@sha256:3801968735ffe71ff29508e238613182b8b55ac5d56858dbbd44dee707f375fb
+      - image: quay.io/redhat-user-workloads/rh-trex-tenant/nudge-test/rh-trex-dummy-1@sha256:f977458ad05a3a03065d4865b000e6f4c7e6901441a522b0d2d82594156e32d0
         name: container-image
         resources: {}
 status: {}
